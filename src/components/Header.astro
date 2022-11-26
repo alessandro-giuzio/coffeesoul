@@ -1,0 +1,25 @@
+---
+import profilePic from '../img/profile.jpg';
+---
+
+<header>
+  <div class='container flex justify-between items-center'>
+    <div class='logo flex items-center gap-4'>
+      <img src={profilePic} alt='' class='w-14 rounded-full' />
+      <h1 class='text-xl md:text-4xl font-bold leading-10 text-warning'>
+        Alessandro Blog
+      </h1>
+    </div>
+    <nav>
+      <ul class='flex gap-2 text-basees md:text-xl text-warning'>
+        <li>
+          <a href='/about'>About</a>
+        </li>
+        <li>
+          <a href='/contact'>Contact</a>
+        </li>
+      </ul>
+      <!-- dark mode button -->
+    </nav>
+  </div>
+</header>

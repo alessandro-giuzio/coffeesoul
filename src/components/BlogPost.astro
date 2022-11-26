@@ -1,0 +1,28 @@
+---
+/* export interface props {
+  title?: string;
+  text?: string;
+  image?: string;
+  imageAlt?: string;
+  url?: string;
+} */
+const { title, slug, image, imageAlt, excerpt, pubDate } = Astro.props;
+---
+
+<!-- <li><a href={url}>{title}</a></li> -->
+<div
+  class='py-6 flex flex-col md:flex-row-reverse gap-6 md:gap-10 items-start border-2 border-white'
+>
+  <a href={slug}>
+    <img
+      src={image}
+      alt={imageAlt}
+      class='min-w-[240px] max-h-[160px] rounded-3xl'
+    />
+  </a>
+  <div class='flex flex-col gap-4'>
+    <h2 class='text-2xl font-bold'>{title}</h2>
+    <p class='text-sm max-w-md'>{pubDate}</p>
+    <p class='text-sm max-w-md'>{excerpt}</p>
+  </div>
+</div>

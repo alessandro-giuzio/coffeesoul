@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="427px" height="93px" viewBox="0 0 427 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="OperatorMono-Book, Operator Mono" font-size="60" font-weight="300" fill="#0D0102">
+            <tspan x="5.68434189e-14" y="58">c</tspan>
+        </text>
+        <filter x="-21.2%" y="-6.9%" width="142.4%" height="119.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="60" y="59">o</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-5" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="103" y="73">f</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-7" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="146" y="86">f</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-9" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="189.395643" y="101.194857">e</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-11" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="232.834365" y="101">e</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-13" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="275.834365" y="95">s</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-15" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="318.834365" y="79">o</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-17" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="361.834365" y="59">u</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-19" font-family="OperatorMono-Book, Operator Mono" font-size="40" font-weight="300" fill="#0D0102">
+            <tspan x="404.834365" y="45">l</tspan>
+        </text>
+        <filter x="-31.8%" y="-10.4%" width="163.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="Group" transform="translate(0.000000, -15.000000)" fill="#0D0102">
+            <g id="c">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <g id="o">
+                <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+            <g id="f">
+                <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+                <use xlink:href="#text-5"></use>
+            </g>
+            <g id="f">
+                <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+                <use xlink:href="#text-7"></use>
+            </g>
+            <g id="e" transform="translate(200.395643, 87.194857) rotate(-1.000000) translate(-200.395643, -87.194857) ">
+                <use filter="url(#filter-10)" xlink:href="#text-9"></use>
+                <use xlink:href="#text-9"></use>
+            </g>
+            <g id="e">
+                <use filter="url(#filter-12)" xlink:href="#text-11"></use>
+                <use xlink:href="#text-11"></use>
+            </g>
+            <g id="s">
+                <use filter="url(#filter-14)" xlink:href="#text-13"></use>
+                <use xlink:href="#text-13"></use>
+            </g>
+            <g id="o">
+                <use filter="url(#filter-16)" xlink:href="#text-15"></use>
+                <use xlink:href="#text-15"></use>
+            </g>
+            <g id="u">
+                <use filter="url(#filter-18)" xlink:href="#text-17"></use>
+                <use xlink:href="#text-17"></use>
+            </g>
+            <g id="l">
+                <use filter="url(#filter-20)" xlink:href="#text-19"></use>
+                <use xlink:href="#text-19"></use>
+            </g>
+        </g>
+    </g>
+</svg>

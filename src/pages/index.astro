@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import BlogPost from '../components/BlogPost.astro';
+const allPosts = await Astro.glob('../posts/*.md');
+---
+
+<Layout title='Welcome to CoffeeSoul'>
+  <main>
+    <Header />
+    <p>This is where I will post about my journey learning Astro.</p>
+    <ul>
+      {
+        allPosts.map(post => (
+          <BlogPost
+            url={post.url}
+            title={post.frontmatter.title}
+            pubDate={post.frontmatter.pubDate}
+            excerpt={post.frontmatter.excerpt}
+            image={post.frontmatter.image}
+          />
+        ))
+      }
+    </ul>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 850px;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+</style>

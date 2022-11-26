@@ -1,0 +1,27 @@
+<svg class="iconLeft" data-v-fde0c5aa="" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <!---->
+ <defs data-v-fde0c5aa="">
+  <!----></defs>
+ <rect class="logo-background-square" width="300" height="300" fill="#00242b" data-v-fde0c5aa=""/>
+ <defs data-v-fde0c5aa="">
+  <!----></defs>
+ <g id="a269ee67-e700-490d-a037-c688ca82a91c" transform="matrix(2.4706 0 0 2.4706 69.415 125.78)" fill="#7de38d" data-v-fde0c5aa="">
+  <path d="m6.79 12.43v1.26h-4.13v-7.42h4.13v1.26h1.4v-1.58l-1.62-0.94h-3.69l-1.62 0.94v8.06l1.62 0.94h3.69l1.62-0.94v-1.58zm9.59 1.58v-5.26l-1.62-0.94h-2.71l-1.62 0.94v5.26l1.62 0.94h2.71zm-4.59-4.98h3.23v4.7h-3.23zm6.27 0.07h1.29v5.78h1.36v-5.78h1.68v-1.22h-1.68v-2h1.68v-1.22h-1.42l-1.62 0.94v2.28h-1.29zm5.45 0h1.28v5.78h1.36v-5.78h1.68v-1.22h-1.68v-2h1.68v-1.22h-1.41l-1.63 0.94v2.28h-1.28zm11.53 4.56h-4.17v-1.8h4.17v-3.11l-1.62-0.94h-2.28l-1.63 0.94v5.19l1.63 0.94h3.9zm-4.17-4.63h2.81v1.61h-2.81zm11.94 4.63h-4.17v-1.8h4.17v-3.11l-1.62-0.94h-2.28l-1.63 0.94v5.19l1.63 0.94h3.9zm-4.17-4.63h2.81v1.61h-2.81zm10.19 0.67 1.63 0.94h3.48v3.05h-3.85v-1.12h-1.4v1.44l1.63 0.94h3.4l1.62-0.94v-3.83l-1.62-0.94h-3.49v-2.97h3.71v1.12h1.4v-1.44l-1.62-0.94h-3.26l-1.63 0.94zm14.84 4.31v-5.26l-1.62-0.94h-2.7l-1.63 0.94v5.26l1.63 0.94h2.7zm-4.59-4.98h3.23v4.7h-3.23zm6.83 4.98 1.63 0.94h1.97l0.99-0.57 0.34 0.57h1.02v-7.07h-1.36v5.85h-3.23v-5.85h-1.36zm9.82 0.87h1.41v-1.22h-1.68v-9h-1.36v9.28z"/>
+ </g>
+ <defs data-v-fde0c5aa="">
+  <!----></defs>
+ <g id="22a164cb-1342-43d6-aaea-6b57880117bd" transform="matrix(1.1917 0 0 1.1917 30.696 130.93)" fill="#7de38d" data-v-fde0c5aa="">
+  <path d="m18.396 26.495-10.589-10.59 10.625-10.625 0.707 0.707-9.918 9.918 9.882 9.883z"/>
+  <path d="m23.194 1v4.194h-4.194v-4.194h4.194m1-1h-6.194v6.194h6.194zm-1 26.806v4.194h-4.194v-4.194h4.194m1-1h-6.194v6.194h6.194z"/>
+ </g>
+ <!---->
+</svg>
