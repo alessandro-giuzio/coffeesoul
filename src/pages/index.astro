@@ -9,7 +9,6 @@ const allPosts = await Astro.glob('../posts/*.md');
 <Layout title='Welcome to CoffeeSoul'>
   <main>
     <Header />
-    <p>This is where I will post about my journey learning Astro.</p>
     <ul>
       {
         allPosts.map(post => (
@@ -18,7 +17,7 @@ const allPosts = await Astro.glob('../posts/*.md');
             title={post.frontmatter.title}
             pubDate={post.frontmatter.pubDate}
             excerpt={post.frontmatter.excerpt}
-            image={post.frontmatter.image}
+            img={post.frontmatter.img}
           />
         ))
       }

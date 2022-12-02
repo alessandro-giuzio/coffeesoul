@@ -2,7 +2,9 @@
 title: Tostador 2
 slug: tostador-2
 excerpt: El café es mi pasión desde hace años. Me encanta todo lo que tiene que ver con él, desde el olor hasta el sabor y la forma en que hace sentir a la gente.
-date: 22.02.2022
+img: blog9.jpg
+tags: ['roaster']
+pubDate: 22.02.2022
 author: Alessandro Giuzio
 ---
 

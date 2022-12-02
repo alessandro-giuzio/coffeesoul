@@ -2,7 +2,8 @@
 title: Caffeine
 slug: caffeine
 excerpt: El café es mi pasión desde hace años. Me encanta todo lo que tiene que ver con él, desde el olor hasta el sabor y la forma en que hace sentir a la gente.
-image: blog4.jpg
+tags: ['coffee']
+img: blog4.jpg
 pubDate: 22.02.2022
 author: Alessandro Giuzio
 ---
