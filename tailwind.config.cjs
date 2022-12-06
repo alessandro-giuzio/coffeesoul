@@ -8,7 +8,7 @@ module.exports = {
         secondary: '#c27c5e',
         accent: '#7e22ce',
         neutral: '#bda79e',
-        base: '#FFFFFF',
+        bases: '#FFFFFF',
         info: '#3ABFF8',
         success: '#36D399',
         warning: '#FBBD23',

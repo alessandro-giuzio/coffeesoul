@@ -1,12 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title='About Alessandro'>
+  <Header text='Home' link='/' />
   <section>
-    <div class='container'>
-      <h1>Alessandro Giuzio</h1>
-      <p>
+    <div class='container space-y-4'>
+      <h1 class='text-bases text-2xl'>Alessandro Giuzio</h1>
+      <article class='prose lg:prose-xl text-bases text-xl'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure magnam,
         corporis dicta praesentium ab, nulla omnis ipsa excepturi, harum
         provident nihil delectus exercitationem amet fugiat quis maxime dolore
@@ -18,7 +20,7 @@ import Layout from '../layouts/Layout.astro';
         quasi minus, molestias, architecto, vitae porro nesciunt id officia
         delectus. Eligendi non totam incidunt tempore. Culpa magnam sunt
         repudiandae dicta aliquam. Iste, adipisci animi?
-      </p>
+      </article>
     </div>
   </section>
 </Layout>

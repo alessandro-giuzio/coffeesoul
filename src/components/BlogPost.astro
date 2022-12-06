@@ -1,27 +1,28 @@
 ---
-export interface props {
+export interface Props {
   title?: string;
   text?: string;
   img?: string;
   imageAlt?: string;
-  url?: string;
   pubDate?: string;
 }
-const { title, slug, img, imageAlt, excerpt, pubDate } = Astro.props;
+const { title, img, imageAlt, text, pubDate } = Astro.props as Props;
 ---
 
 <!-- <li><a href={url}>{title}</a></li> -->
-<div class='py-6 flex flex-col md:flex-row-reverse gap-6 md:gap-10 items-start'>
-  <a href={slug}>
-    <img
-      src={img}
-      alt={imageAlt}
-      class='min-w-[240px] max-h-[160px] rounded-3xl'
-    />
-  </a>
+<div
+  class='py-6 flex flex-col gap-6 md:gap-10 items-start border-2 border-gray-500 rounded-lg'
+>
+  <slot />
+  <img
+    src={img}
+    alt={imageAlt}
+    class='min-w-[240px] max-h-[160px] rounded-lg'
+  />
+
   <div class='flex flex-col gap-4'>
-    <h2 class='text-2xl font-bold'>{title}</h2>
+    <!-- <h2 class='text-3xl font-bold'>{title}</h2>
     <p class='text-sm max-w-md'>{pubDate}</p>
-    <p class='text-sm max-w-md'>{excerpt}</p>
+    <p class='text-lg max-w-md'>{text}</p> -->
   </div>
 </div>

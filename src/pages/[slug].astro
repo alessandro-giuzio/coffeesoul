@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import BlogPost from '../components/BlogPost.astro';
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../posts/*.md');
+
+  return posts.map(post => ({
+    params: {
+      slug: post.frontmatter.slug,
+    },
+    props: {
+      post,
+    },
+  }));
+}
+
+const { Content, frontmatter } = Astro.props.post;
+---
+
+<Layout title={frontmatter.title}>
+  <Header text='Home' link='/' />
+  <section class='page-content'>
+    <div class='container'>
+      <BlogPost>
+        <h2>{frontmatter.title}</h2>
+        <Content />
+      </BlogPost>
+    </div>
+  </section>
+</Layout>
