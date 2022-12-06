@@ -17,7 +17,12 @@ const allPosts = await Astro.glob('../posts/*.md');
               src={post.frontmatter.img}
             />
             <h2 class='text-3xl font-bold'>{post.frontmatter.title}</h2>
-            <p>{post.frontmatter.pubDate}</p>
+            <div>
+              Escrito por{' '}
+              <strong>
+                {post.frontmatter.author} el {post.frontmatter.pubDate}
+              </strong>
+            </div>
             <p>{post.frontmatter.excerpt}</p>
             <a class='btn' href={`/${post.frontmatter.slug}`}>
               Read More

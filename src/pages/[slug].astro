@@ -25,7 +25,17 @@ const { Content, frontmatter } = Astro.props.post;
     <div class='container'>
       <BlogPost>
         <h2>{frontmatter.title}</h2>
+        <div>
+          Escrito por <strong
+            >{frontmatter.author} el {frontmatter.pubDate}</strong
+          >
+        </div>
         <Content />
+        <!-- <div>
+          Escrito por <strong
+            >{frontmatter.author} el {frontmatter.pubDate}</strong
+          >
+        </div> -->
       </BlogPost>
     </div>
   </section>
