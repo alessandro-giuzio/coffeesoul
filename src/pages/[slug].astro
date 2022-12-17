@@ -3,10 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import BlogPost from '../components/BlogPost.astro';
 import Article from '../components/Article.astro';
-
 export async function getStaticPaths() {
   const posts = await Astro.glob('../posts/*.md');
-
   return posts.map(post => ({
     params: {
       slug: post.frontmatter.slug,
@@ -16,8 +14,7 @@ export async function getStaticPaths() {
     },
   }));
 }
-
-const { Content, frontmatter } = Astro.props.post;
+const { frontmatter, Content } = Astro.props.post;
 ---
 
 <Layout title={frontmatter.title}>
@@ -31,9 +28,8 @@ const { Content, frontmatter } = Astro.props.post;
             >{frontmatter.author} el {frontmatter.pubDate}</strong
           >
         </div>
-        <span class='text-white span'>
-          <Content />
-        </span>
+
+        <Content />
       </BlogPost>
     </div>
   </section>
