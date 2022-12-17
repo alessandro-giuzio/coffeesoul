@@ -1,26 +1,40 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title='About Alessandro'>
-  <Header text='Home' link='/' />
-  <section>
+  <section class='mx-auto'>
+    <Header text='Home' link='/' />
     <div class='container space-y-4'>
-      <h1 class='text-bases text-2xl'>Alessandro Giuzio</h1>
+      <!-- <h1 class='text-bases text-2xl max-w-2xl'>
+        Hola, soy Alessandro, experto de café y fundador de este blog.
+      </h1> -->
       <article class='prose lg:prose-xl text-bases text-xl'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure magnam,
-        corporis dicta praesentium ab, nulla omnis ipsa excepturi, harum
-        provident nihil delectus exercitationem amet fugiat quis maxime dolore
-        placeat culpa tempore laborum. Dolor porro minima magnam, quasi
-        veritatis voluptate, tempore velit ipsa distinctio tenetur temporibus
-        aperiam? Debitis suscipit perferendis illo corporis ut qui odit, cum
-        corrupti sint porro non reprehenderit deserunt quasi vel ab architecto
-        hic soluta dolores nulla amet iure. Aliquam enim itaque optio possimus
-        quasi minus, molestias, architecto, vitae porro nesciunt id officia
-        delectus. Eligendi non totam incidunt tempore. Culpa magnam sunt
-        repudiandae dicta aliquam. Iste, adipisci animi?
+        <p>
+          Hola, soy Alessandro, experto de café y fundador de este blog. El café
+          es mi pasión desde hace años.
+        </p>
+        <p>
+          Me encanta todo lo que tiene que ver con él, desde el olor hasta el
+          sabor y la forma en que hace sentir a la gente. Siempre he sido un
+          fanático del café.
+        </p>El café es un ritual que me produce alegría; nunca me ha gustado el
+        café instantáneo ni el preparado a la ligera.
+        <p>
+          En cambio, disfruto descubriendo pequeños tostadores artesanales y la
+          calidad que se desprende de cada sorbo.
+        </p>
+        <p>
+          Todo comenzó cuando me mudè a Inglaterra, me inicié en el mundo del
+          café cuando encontrè una pequeña tostadora de 3,5kg de capacidad de la
+          marca Diedrich en un Coffee Shop llamado Red Roaster, donde solían
+          tostar los granos todos los días, para el placer del olfato de la
+          gente que tenía la suerte de vivir en aquel barrio!
+        </p>
       </article>
     </div>
   </section>
+  <Footer />
 </Layout>

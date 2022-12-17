@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../posts/*.md');
 ---
@@ -12,24 +13,24 @@ const allPosts = await Astro.glob('../posts/*.md');
       {
         allPosts.map(post => (
           <BlogPost>
-            <img
-              class='min-w-[240px] max-h-[160px] rounded-lg'
-              src={post.frontmatter.img}
-            />
-            <h2 class='text-3xl font-bold'>{post.frontmatter.title}</h2>
-            <div>
-              Escrito por{' '}
-              <strong>
-                {post.frontmatter.author} el {post.frontmatter.pubDate}
-              </strong>
+            <img src={post.frontmatter.img} />
+            <div class='text-bases text-xs  font-semibold tracking-widest p-6 space-y-4'>
+              <h2 class='text-3xl font-semibold'>{post.frontmatter.title}</h2>
+              <p class='text-base'>
+                Edited by
+                <strong>
+                  {post.frontmatter.author} el {post.frontmatter.pubDate}
+                </strong>
+              </p>
+              <p class='text-base'>{post.frontmatter.excerpt}</p>
+              <a class='btn btn-xs' href={`/${post.frontmatter.slug}`}>
+                Read More
+              </a>
             </div>
-            <p>{post.frontmatter.excerpt}</p>
-            <a class='btn' href={`/${post.frontmatter.slug}`}>
-              Read More
-            </a>
           </BlogPost>
         ))
       }
     </ul>
   </main>
+  <Footer />
 </Layout>
