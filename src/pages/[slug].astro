@@ -1,8 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import BlogPost from '../components/BlogPost.astro';
-import Article from '../components/Article.astro';
+/* import BlogPost from '../components/BlogPost.astro';
+import Article from '../components/Article.astro'; */
 export async function getStaticPaths() {
   const posts = await Astro.glob('../posts/*.md');
   return posts.map(post => ({
@@ -17,20 +17,24 @@ export async function getStaticPaths() {
 const { frontmatter, Content } = Astro.props.post;
 ---
 
-<Layout title={frontmatter.title}>
+<Layout title={frontmatter.title} description={frontmatter.description}>
   <Header text='Home' link='/' />
-  <section class='page-content'>
+  <section class='page-content mx-auto pt-20'>
     <div class='container'>
-      <BlogPost>
-        <h2 class='text-3xl font-semibold text-bases'>{frontmatter.title}</h2>
-        <div class='text-bases text-base'>
+      <article
+        class='prose lg:prose-xl prose-h1:text-white prose-h1:first-letter:text-red prose-img:rounded-md prose-a:text-warning prose-a:decoration-wavy bg-secondary p-6'
+      >
+        <h1>{frontmatter.title}</h1>
+        <img src={frontmatter.img} alt='' class='rounded-md' />
+        <div class='text-bases text-xs'>
           Escrito por <strong
             >{frontmatter.author} el {frontmatter.pubDate}</strong
           >
         </div>
-
-        <Content />
-      </BlogPost>
+        <span class='text-white'>
+          <Content />
+        </span>
+      </article>
     </div>
   </section>
 </Layout>
