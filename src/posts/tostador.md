@@ -2,7 +2,7 @@
 title: Tostador
 slug: tostador
 excerpt: El café es mi pasión desde hace años. Me encanta todo lo que tiene que ver con él, desde el olor hasta el sabor y la forma en que hace sentir a la gente.
-img: blog4.jpg
+img: /blog4.jpg
 imgAlt: Coffee beans
 tags: ['coffee']
 pubDate: 22.02.2022

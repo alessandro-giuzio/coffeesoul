@@ -2,7 +2,7 @@
 title: Red Roaster
 slug: red-roaster
 excerpt: Cuando trabajé en el Red Roaster en Brighton, UK, tuve la oportunidad de aprender sobre el arte del tueste artesanal del café. En este blog post, quiero compartir mis experiencias y lo que he aprendido sobre este proceso fascinante.
-img: blog9.jpg
+img: /blog9.jpg
 imgAlt: Alessandro escribiendo el log de la tostadura
 tags: ['roaster']
 pubDate: 22.02.2022
