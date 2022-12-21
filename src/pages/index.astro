@@ -6,7 +6,10 @@ import BlogPost from '../components/BlogPost.astro';
 const allPosts = await Astro.glob('../posts/*.md');
 ---
 
-<Layout title='Bienvenid@ a CoffeeSoul'>
+<Layout
+  title='Bienvenid@ a CoffeeSoul'
+  description='Alessandro Blog | CoffeeSoul | Toastador'
+>
   <Header />
   <main class='mx-auto p-5 max-w-[850px]'>
     <ul class='space-y-4'>
