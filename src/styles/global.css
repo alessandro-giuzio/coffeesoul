@@ -39,5 +39,5 @@ body {
 }
 
 .btn {
-  @apply bg-primary text-bases tracking-widest hover:translate-x-2;
+  @apply bg-red text-bases tracking-widest hover:translate-x-2;
 }
